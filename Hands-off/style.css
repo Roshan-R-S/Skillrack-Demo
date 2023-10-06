@@ -1,0 +1,87 @@
+body{
+    text-align-last:center;
+    font-size: x-large;
+    margin: 1rem;
+    background-color:black;
+    flex-direction:column;
+
+}
+
+.nav-top-level{
+    gap: 3rem;
+    height: auto;
+    padding: 2rem;
+    display :flex;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+    background-color: #1e1e1e;
+    /*margin: 1rem;*/
+    /*flex-direction:row;*/ 
+    /*color: aliceblue;*/
+
+
+}
+.navbar{
+    display :flex;
+    justify-content:space-evenly;
+    gap: 2rem;
+    margin: 1rem;
+    /*color: aliceblue;*/
+    /*align-items: center;*/
+    /*padding: 2rem;*/
+    /*background-color: black;*/
+    /*flex-direction:row; */
+
+}
+
+.landing-body{
+    background-color: #1e1e1e;
+    margin: 0;
+
+}
+
+.landing-header{
+    color: white;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+.features{
+    display: flex;
+    
+    
+}
+
+
+.for-college{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    padding: 1rem;
+    text-align: center;
+  
+}
+
+.for-students{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    text-align: center;
+    width: 50%;
+}
+
+
+
+
+
+.Learn-more{
+    background-color: #1678c2;
+    color: white;
+    height: 3rem;
+    border-radius: .25rem;
+    font-weight: 700;
+    padding: 1rem;
+}
